@@ -32,25 +32,25 @@ async def _human_time_duration(seconds):
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, m: Message):
    if m.chat.type == "private":
-      await m.reply(f"✨ **Hello there, I am a telegram video streaming bot.**\n\n💭 **I was created to stream videos in group video chats easily.**\n\n❔ **To find out how to use me, please press the help button below** 👇🏻",
+      await m.reply(f"✨ **Hello there, I am a telegram video streaming bot.[★ANJEL STREAM★᭄ꦿ🎻](https://telegra.ph/file/19b7b31eae9f0e52ae21a.jpg)**\n\n💭 **I was created to stream videos in group video chats easily.**\n\n❔ **To find out how to use me, please press the help button below** 👇🏻",
                     reply_markup=InlineKeyboardMarkup(
                        [[
                           InlineKeyboardButton(
-                             "❔ HOW TO USE THIS BOT", callback_data="cbguide")
+                             "🍀HOW TO USE THIS BOT", callback_data="cbguide")
                        ],[
                           InlineKeyboardButton(
-                             "🌐 Terms & Condition", callback_data="cbinfo")
+                             "🔆Terms & Condition", callback_data="cbinfo")
                        ],[
                           InlineKeyboardButton(
-                             "💬 Group", url="https://t.me/VeezSupportGroup"),
+                             "🍁Group", url="https://t.me/GodofanjelSupport"),
                           InlineKeyboardButton(
-                             "📣 Channel", url="https://t.me/levinachannel")
+                             "📣 Channel", url="https://t.me/AnjelUpdates")
                        ],[
                           InlineKeyboardButton(
-                             "👩🏻‍💻 Developer", url="https://t.me/dlwrml")
+                             "🎻Creator", url="https://t.me/KhiladiKing45")
                        ],[
                           InlineKeyboardButton(
-                             "📚 All Command List", callback_data="cblist")
+                             "🎗All Command List", callback_data="cblist")
                        ]]
                     ))
    else:
@@ -81,10 +81,10 @@ async def alive(_, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ Group", url=f"https://t.me/VeezSupportGroup"
+                        "✨ Group", url=f"https://t.me/GodofanjelSupport"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url=f"https://t.me/levinachannel"
+                        "📣 Channel", url=f"https://t.me/AnjelUpdates"
                     )
                 ]
             ]
